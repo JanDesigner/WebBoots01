@@ -1,0 +1,73 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  padding: 0 50px;
+}
+
+.navbar-expand-sm >.container  {
+  padding: 0 15px;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #252a2f;
+}
+.jumbotron {
+  background-color: #252a2f;
+  color:white;
+  border-radius: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.2;
+  font-size:19px;
+}
+.jumbotron .btn-primary {
+  padding:15px 46px;
+  text-transform: uppercase;
+}
+.jumbotron a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.jumbotron , .container {
+  padding:  15px;
+}
+
+.jumbotron .subscribe   {
+  width: 50%;
+
+
+}
+section .subscribe {
+  
+}
+
+
+
+
+
+
+
+
+
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    .class-name {font-size: 14px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .class-name {font-size: 30px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .class-name {font-size: 40px;}
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .class-name {font-size: 48px;}
+  }
+
+  /*
